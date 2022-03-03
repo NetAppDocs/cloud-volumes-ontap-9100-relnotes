@@ -5,3 +5,44 @@ settings:
   prod:
     pdf_enabled: true
 sidebar:
+  entries:
+    - title: Back to Cloud Manager documentation
+      url: https://docs.netapp.com/us-en/cloud-manager-family
+    - title: Cloud Volumes ONTAP 9.10.0 Release Notes
+      url: /index.html
+    - title: What's new
+      url: /reference-new-9100.html
+    - title: Licensing overview
+      url: /concept-licensing-9100.html
+    - title: Supported configurations
+      entries:
+        - title: AWS
+          url: /reference-configs-aws-9100.html
+        - title: Azure
+          url: /reference-configs-azure-9100.html
+        - title: GCP
+          url: /reference-configs-gcp-9100.html
+    - title: Storage limits
+      entries:
+        - title: AWS
+          url: /reference-limits-aws-9100.html
+        - title: Azure
+          url: /reference-limits-azure-9100.html
+        - title: GCP
+          url: /reference-limits-gcp-9100.html
+    - title: Known issues
+      url: /reference-issues-9100.html
+    - title: Known limitations
+      entries:
+        - title: Common limitations
+          url: /reference-limitations-9100.html
+        - title: Limitations in AWS
+          url: /reference-limitations-aws-9100.html
+        - title: Limitations in Azure
+          url: /reference-limitations-azure-9100.html
+        - title: Limitations in GCP
+          url: /reference-limitations-gcp-9100.html
+    - title: Cloud provider integrations
+      url: /reference-provider-integrations-9100.html
+    - title: Legal notices
+      url: /reference-legal-notices.html
