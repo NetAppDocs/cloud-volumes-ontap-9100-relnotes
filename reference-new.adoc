@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: reference-new-9100.html
+permalink: reference-new.html
 keywords: what's new, new, features, release notes, enhancements
 summary: Cloud Volumes ONTAP 9.10.0 includes several new features and enhancements.
 ---
@@ -15,7 +15,7 @@ summary: Cloud Volumes ONTAP 9.10.0 includes several new features and enhancemen
 [.lead]
 Cloud Volumes ONTAP 9.10.0 includes several new features and enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/occm/reference_new_occm.html[Cloud Manager Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for details.
 
 == 9.10.0 GA (4 Oct 2021)
 
@@ -41,7 +41,7 @@ The Cloud Manager Connector must be running version 3.9.11 or later to deploy ne
 
 * You can upgrade to Cloud Volumes ONTAP 9.10.0 from the 9.9.1 release and from the 9.9.0 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.1 and 9.9.0 systems to the 9.10.0 release.
 +
-http://docs.netapp.com/us-en/occm/task_updating_ontap_cloud.html#upgrading-cloud-volumes-ontap-from-cloud-manager-notifications[Learn how to upgrade when Cloud Manager notifies you^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
 
 * The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
 
