@@ -39,7 +39,7 @@ The Cloud Manager Connector must be running version 3.9.11 or later to deploy ne
 
 * Upgrades of Cloud Volumes ONTAP must be completed from Cloud Manager. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
 
-* You can upgrade to Cloud Volumes ONTAP 9.10.0 from the 9.9.1 release and from the 9.9.0 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.1 and 9.9.0 systems to the 9.10.0 release.
+* You can upgrade to Cloud Volumes ONTAP 9.10.0 from the 9.9.1 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.1 systems to the 9.10.0 release.
 +
 http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
 
