@@ -15,7 +15,7 @@ summary: Cloud Volumes ONTAP 9.10.0 includes several new features and enhancemen
 [.lead]
 Cloud Volumes ONTAP 9.10.0 includes several new features and enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of BlueXP. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for details.
 
 == 9.10.0 GA (4 Oct 2021)
 
@@ -31,17 +31,17 @@ The NVRAM disk size was increased from 128 GiB to 512 GiB for new Cloud Volumes 
 
 NOTE: If you choose a single node system and the virtual machine supports Ultra SSDs, then the system uses a 32 GiB Ultra SSD for NVRAM, rather than a 512 GiB Premium SSD.
 
-== Required version of the Cloud Manager Connector
+== Required version of the BlueXP Connector
 
-The Cloud Manager Connector must be running version 3.9.11 or later to deploy new Cloud Volumes ONTAP 9.10.0 systems and to upgrade existing systems to 9.10.0.
+The BlueXP Connector must be running version 3.9.11 or later to deploy new Cloud Volumes ONTAP 9.10.0 systems and to upgrade existing systems to 9.10.0.
 
 == Upgrade notes
 
-* Upgrades of Cloud Volumes ONTAP must be completed from Cloud Manager. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
+* Upgrades of Cloud Volumes ONTAP must be completed from BlueXP. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
 
-* You can upgrade to Cloud Volumes ONTAP 9.10.0 from the 9.9.1 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.1 systems to the 9.10.0 release.
+* You can upgrade to Cloud Volumes ONTAP 9.10.0 from the 9.9.1 release. BlueXP will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.1 systems to the 9.10.0 release.
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when BlueXP notifies you^].
 
 * The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
 
